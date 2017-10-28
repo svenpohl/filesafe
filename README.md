@@ -32,9 +32,9 @@ $ decrypt secret.alb secret.txt "cat4sT$1022b"
 
 Description
 -----
-*Timesafe* uses a AES-CBC-256 function to protect you secret files with a password.
+*Timesafe* uses a AES-CBC-256 function to protect your secret files by a password.
 After file encoding the function will reload the created file, decrypt it, and check
-the consistence of the encoded sha256-hash value in order to get sure, the encoding is
+the consistence of the encoded sha256-hash value in order to get sure that the encoding works
 like expected.
 
 
