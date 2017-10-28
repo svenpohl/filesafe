@@ -37,6 +37,11 @@ After file encoding the function will reload the created file, decrypt it, and c
 the consistence of the encoded sha256-hash value in order to get sure that the encoding works
 like expected.
 
+Filesize is limitet to 1MB (1048576 bytes), you can change this by editing the 
+"MAX_FILESIZE" definition in *filesafe.h*. 
+
+By setting the REMOVE_PLAINTEXT_FILE_AFTER_ENCODING - Flag to 1, the plaintext file will
+be removed instantaneously - be careful. 
 
 
 
