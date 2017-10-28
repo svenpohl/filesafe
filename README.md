@@ -40,7 +40,7 @@ like expected.
 Filesize is limitet to 1MB (1048576 bytes), you can change this by editing the 
 "MAX_FILESIZE" definition in *filesafe.h*. 
 
-By setting the REMOVE_PLAINTEXT_FILE_AFTER_ENCODING - Flag to 1, the plaintext file will
+By setting the REMOVE_PLAINTEXT_FILE_AFTER_ENCODING - flag to 1, the plaintext file will
 be removed instantaneously - be careful. 
 
 
